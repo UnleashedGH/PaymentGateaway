@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VLkmihETZeCrN0OUem1U41l5D6ikF+tpM7CTnZqNAcdAhgeQXxj2uNYsapSJc0Xrd/4k5eIBWf8S3nIxY/kZcw==",
+  "dgSpecHash": "gxq6tUZnEucR82Y4f2uLTupKQq0f1k1AKra3eI8BDGEEdTydHljkpRQdni2L11WzNX8iQZhFWRl1diWIw8JRcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Unleashed\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Unleashed\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Unleashed\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Unleashed\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

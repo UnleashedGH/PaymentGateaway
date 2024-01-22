@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Entities.Models;
 
 namespace Blueprints
 {
-     public interface IBaseRepository <T> where T : BaseEntity
+     public interface IBaseRepository <TEntity> where TEntity : BaseEntity
     {
-        T GetById (int id);
-        IEnumerable<T> GetAll ();
-
-        void Update(T entity);
-
+        TEntity GetByCondition (Expression<Func<bool>> conditionExpression);
+        IEnumerable<TEntity> GetAll ();
+        void Update(TEntity entity);
         void Delete (int id);
-
-
+        
+        void Create(TEntity entity);
     }
 }

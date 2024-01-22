@@ -1,37 +1,52 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Alkafel center\\.nuget\\packages\\": {},
+    "C:\\Users\\Unleashed\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj",
+      "projectUniqueName": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj",
       "projectName": "Services.Blueprints",
-      "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj",
-      "packagesPath": "C:\\Users\\Alkafel center\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\obj\\",
+      "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj",
+      "packagesPath": "C:\\Users\\Unleashed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alkafel center\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Unleashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,13 +55,16 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -74,7 +92,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,16 @@
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Services.Blueprints.deps.json
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Services.Blueprints.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Services.Blueprints.pdb
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.AssemblyInfoInputs.cache
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.AssemblyInfo.cs
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.csproj.CoreCompileInputs.cache
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.sourcelink.json
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\refint\Services.Blueprints.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.pdb
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\ref\Services.Blueprints.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Entities.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Entities.pdb
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.csproj.AssemblyReference.cache
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.csproj.CopyComplete

@@ -5,17 +5,19 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B875FE1-4E41-4B8F-A15A-DF650EEE8479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\Entities.csproj", "{6E5C5168-B210-44EC-81A5-0FC6591D1C80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "src\Entities\Entities.csproj", "{6E5C5168-B210-44EC-81A5-0FC6591D1C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "src\Repositories\Repositories.csproj", "{FB40241C-FFC1-4E3E-A230-02DCFDD26297}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "src\Repositories\Repositories.csproj", "{FB40241C-FFC1-4E3E-A230-02DCFDD26297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blueprints", "src\Blueprints\Blueprints.csproj", "{10A9D182-1D40-44B2-B02F-FA70968AB0C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blueprints", "src\Blueprints\Blueprints.csproj", "{10A9D182-1D40-44B2-B02F-FA70968AB0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\Services\Services.csproj", "{AD38B7E0-B5AC-42F8-9372-239B9D348D1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "src\Services\Services.csproj", "{AD38B7E0-B5AC-42F8-9372-239B9D348D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Blueprints", "src\Services.Blueprints\Services.Blueprints.csproj", "{18EA75E3-CF24-46C8-BBA3-12A7417B45ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Blueprints", "src\Services.Blueprints\Services.Blueprints.csproj", "{18EA75E3-CF24-46C8-BBA3-12A7417B45ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{B8EBB048-CFFC-4F2E-AD7B-120132979A97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{B8EBB048-CFFC-4F2E-AD7B-120132979A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProject", "MainProject\MainProject.csproj", "{D9996C8E-48B2-430A-AB7E-C96059AAC124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{B8EBB048-CFFC-4F2E-AD7B-120132979A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8EBB048-CFFC-4F2E-AD7B-120132979A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8EBB048-CFFC-4F2E-AD7B-120132979A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9996C8E-48B2-430A-AB7E-C96059AAC124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9996C8E-48B2-430A-AB7E-C96059AAC124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9996C8E-48B2-430A-AB7E-C96059AAC124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9996C8E-48B2-430A-AB7E-C96059AAC124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

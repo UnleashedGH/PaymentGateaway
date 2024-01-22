@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj": {}
+    "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj": {
+    "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
+        "projectUniqueName": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
         "projectName": "PaymentGateaway",
-        "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
-        "packagesPath": "C:\\Users\\Alkafel center\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\obj\\",
+        "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\PaymentGateaway.csproj",
+        "packagesPath": "C:\\Users\\Unleashed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alkafel center\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Unleashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -60,12 +56,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
