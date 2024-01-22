@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B875FE1-4E4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "src\Entities\Entities.csproj", "{6E5C5168-B210-44EC-81A5-0FC6591D1C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "..\Repositories\Repositories.csproj", "{FB40241C-FFC1-4E3E-A230-02DCFDD26297}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "src\Repositories\Repositories.csproj", "{FB40241C-FFC1-4E3E-A230-02DCFDD26297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blueprints", "..\Blueprints\Blueprints.csproj", "{10A9D182-1D40-44B2-B02F-FA70968AB0C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blueprints", "src\Blueprints\Blueprints.csproj", "{10A9D182-1D40-44B2-B02F-FA70968AB0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{AD38B7E0-B5AC-42F8-9372-239B9D348D1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\Services\Services.csproj", "{AD38B7E0-B5AC-42F8-9372-239B9D348D1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Blueprints", "..\Services.Blueprints\Services.Blueprints.csproj", "{18EA75E3-CF24-46C8-BBA3-12A7417B45ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Blueprints", "src\Services.Blueprints\Services.Blueprints.csproj", "{18EA75E3-CF24-46C8-BBA3-12A7417B45ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{B8EBB048-CFFC-4F2E-AD7B-120132979A97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{B8EBB048-CFFC-4F2E-AD7B-120132979A97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
