@@ -13,14 +13,15 @@ namespace Repositories
     public class BaseRepository<TEntity> : IBaseRepository<TEntity>
         where TEntity : BaseEntity
     {
-
-        private readonly PaymentGateawayDBContext _paymentGateawayDBContext;
-        public BaseRepository(PaymentGateawayDBContext paymentGateawayDBContext)
+        
+        private readonly PaymentGatewayDbContext _paymentGatewayDbContext;
+        public BaseRepository(PaymentGatewayDbContext paymentGatewayDbContext)
         {
-            _paymentGateawayDBContext = paymentGateawayDBContext;
+            _paymentGatewayDbContext = paymentGatewayDbContext;
         }
         public void Create(TEntity entity) =>
-              _paymentGateawayDBContext.Set<TEntity>().Add(entity);
+              _paymentGatewayDbContext.Set<TEntity>().Add(entity);
+        
    
         public void Delete(int id)
         {

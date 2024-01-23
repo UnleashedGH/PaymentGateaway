@@ -13,8 +13,8 @@ namespace Repositories
     public sealed class PaymentRepository : BaseRepository<Payment>, IPaymentRepository
     {
 
-        public PaymentRepository(PaymentGateawayDBContext paymentGateawayDBContext) : 
-            base(paymentGateawayDBContext)
+        public PaymentRepository(PaymentGatewayDbContext paymentGatewayDbContext) : 
+            base(paymentGatewayDbContext)
         {
          
            

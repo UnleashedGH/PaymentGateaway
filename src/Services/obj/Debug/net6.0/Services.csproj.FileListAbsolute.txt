@@ -22,3 +22,26 @@ C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Se
 C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\refint\Services.dll
 C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.pdb
 C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\ref\Services.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Services.deps.json
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Services.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Services.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Blueprints.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Entities.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Infrastructure.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Repositories.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Services.Blueprints.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Blueprints.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Entities.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Repositories.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Services.Blueprints.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\bin\Debug\net6.0\Infrastructure.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\refint\Services.dll
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\Services.pdb
+C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services\obj\Debug\net6.0\ref\Services.dll

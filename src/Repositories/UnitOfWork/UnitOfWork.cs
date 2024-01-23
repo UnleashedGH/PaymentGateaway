@@ -13,8 +13,8 @@ namespace Repositories.UnitOfWork
     
 
     {
-        private readonly PaymentGateawayDBContext _context;
-        public UnitOfWork(PaymentGateawayDBContext context)
+        private readonly PaymentGatewayDbContext _context;
+        public UnitOfWork(PaymentGatewayDbContext context)
         {
             _context = context;
         }

@@ -23,7 +23,7 @@ namespace MainProject
             {
 
                 services.AddSingleton<IApplication, Application>();
-                services.AddDbContext<PaymentGateawayDBContext>(options =>
+                services.AddDbContext<PaymentGatewayDbContext>(options =>
                 { options.UseSqlServer(""); });
                
              

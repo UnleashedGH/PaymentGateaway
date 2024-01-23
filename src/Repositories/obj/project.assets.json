@@ -2675,26 +2675,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Unleashed\\.nuget\\packages\\": {},
+    "C:\\Users\\Alkafel center\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj",
-      "packagesPath": "C:\\Users\\Unleashed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Repositories\\obj\\",
+      "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj",
+      "packagesPath": "C:\\Users\\Alkafel center\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Unleashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alkafel center\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2703,17 +2707,18 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj": {
-              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj"
+            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj": {
+              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj"
             },
-            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2749,7 +2754,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,15 +11,15 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
-    public class PaymentGateawayDBContext : DbContext
+    public class PaymentGatewayDbContext : DbContext
     {
 
-        public DbSet<Payment> Payment { get; set; }
+        public DbSet<Payment>? Payment { get; set; }
 
    
 
         //options and builder patterns for db context
-        public PaymentGateawayDBContext(DbContextOptions optionsBuilder) : base(optionsBuilder)
+        public PaymentGatewayDbContext(DbContextOptions optionsBuilder) : base(optionsBuilder)
         {
            // optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=PaymentGateawayDb;Trusted_Connection=True;");
         }

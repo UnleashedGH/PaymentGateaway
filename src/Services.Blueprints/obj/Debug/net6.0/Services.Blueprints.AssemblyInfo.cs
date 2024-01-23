@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Services.Blueprints")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f7e4ff3b8789705bf54c3d4a98a75d03ce7280f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Services.Blueprints")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Services.Blueprints")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
