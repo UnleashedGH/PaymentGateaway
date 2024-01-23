@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Blueprints;
 using Infrastructure;
 using Services.Blueprints;
+using Shared;
 
 namespace Services
 {
-    public sealed class ServiceManager : IServiceManager
+    public sealed class ServiceManager : IServiceManager, IInjectable
     {
         private readonly Lazy<IPaymentService> _paymentService;
 

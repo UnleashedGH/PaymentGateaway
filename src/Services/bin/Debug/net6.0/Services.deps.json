@@ -11,7 +11,8 @@
           "Blueprints": "1.0.0",
           "Entities": "1.0.0",
           "Repositories": "1.0.0",
-          "Services.Blueprints": "1.0.0"
+          "Services.Blueprints": "1.0.0",
+          "Shared": "1.0.0"
         },
         "runtime": {
           "Services.dll": {}
@@ -592,10 +593,16 @@
       },
       "Services.Blueprints/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Shared": "1.0.0"
         },
         "runtime": {
           "Services.Blueprints.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "runtime": {
+          "Shared.dll": {}
         }
       }
     }
@@ -1005,6 +1012,11 @@
       "sha512": ""
     },
     "Services.Blueprints/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

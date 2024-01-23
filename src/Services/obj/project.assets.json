@@ -1022,13 +1022,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Services.Blueprints.dll": {}
         },
         "runtime": {
           "bin/placeholder/Services.Blueprints.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
         }
       }
     }
@@ -2703,6 +2714,11 @@
       "type": "project",
       "path": "../Services.Blueprints/Services.Blueprints.csproj",
       "msbuildProject": "../Services.Blueprints/Services.Blueprints.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/Shared.csproj",
+      "msbuildProject": "../../Shared/Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2710,34 +2726,31 @@
       "Blueprints >= 1.0.0",
       "Entities >= 1.0.0",
       "Repositories >= 1.0.0",
-      "Services.Blueprints >= 1.0.0"
+      "Services.Blueprints >= 1.0.0",
+      "Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alkafel center\\.nuget\\packages\\": {},
+    "C:\\Users\\Unleashed\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\Alkafel center\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services\\obj\\",
+      "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\Unleashed\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alkafel center\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Unleashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2746,24 +2759,26 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj": {
-              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj"
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\Shared\\Shared.csproj"
             },
-            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj"
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Blueprints\\Blueprints.csproj"
             },
-            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj"
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj": {
-              "projectPath": "C:\\Users\\Alkafel center\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj"
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Repositories\\Repositories.csproj"
+            },
+            "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj": {
+              "projectPath": "C:\\Users\\Unleashed\\source\\repos\\PaymentGateaway\\src\\Services.Blueprints\\Services.Blueprints.csproj"
             }
           }
         }
@@ -2793,7 +2808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

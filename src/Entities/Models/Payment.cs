@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Models
 {
+    //POCO
     public class Payment : BaseEntity
     {
         public long PaymentNumber { get; set; }

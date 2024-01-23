@@ -29,3 +29,5 @@ C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services.Blueprints\obj
 C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\refint\Services.Blueprints.dll
 C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\Services.Blueprints.pdb
 C:\Users\Alkafel center\source\repos\PaymentGateaway\src\Services.Blueprints\obj\Debug\net6.0\ref\Services.Blueprints.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Shared.dll
+C:\Users\Unleashed\source\repos\PaymentGateaway\src\Services.Blueprints\bin\Debug\net6.0\Shared.pdb

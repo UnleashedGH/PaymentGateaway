@@ -1,4 +1,5 @@
 ﻿using Blueprints;
+using Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class SystemTimeProviderService : IClockProvider
+    public class SystemTimeProviderService : IClockProvider, IInjectable
     {
         public DateTime CurrentDateTime()
         {
