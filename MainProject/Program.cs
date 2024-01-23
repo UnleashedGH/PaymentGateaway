@@ -19,6 +19,9 @@ namespace MainProject
         {
             var ServiceAssembly = Assembly.GetAssembly(typeof(IServiceManager));
 
+
+
+
             IHost host = Host.CreateDefaultBuilder().ConfigureServices(services =>
             {
 

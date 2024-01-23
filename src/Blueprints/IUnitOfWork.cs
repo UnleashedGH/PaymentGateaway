@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace Blueprints
 {
-
-        public interface IUnitOfWork
-        
+  public interface IUnitOfWork
         {
             Task SaveAsync();
         }

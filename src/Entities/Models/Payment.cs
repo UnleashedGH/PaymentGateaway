@@ -8,9 +8,7 @@ namespace Entities.Models
 {
     public class Payment : BaseEntity
     {
-
         public long PaymentNumber { get; set; }
-
         public DateTime PaymentDate { get; set; }
     }
 }
