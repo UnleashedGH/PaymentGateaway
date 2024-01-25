@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace Infrastructure
 {
@@ -20,7 +21,8 @@ namespace Infrastructure
             //.Build();
 
             var builder = new DbContextOptionsBuilder<PaymentGatewayDbContext>()
-            .UseSqlServer("Data Source=DESKTOP-HFUQ8MH\\ALISQL2019;Database=PaymentGateaway;Integrated Security=True");
+            .UseSqlServer("Data Source=DESKTOP-HFUQ8MH\\ALISQL2019;Database=PaymentGateaway;Integrated Security=True; TrustServerCertificate=True",
+             b => b.MigrationsAssembly("MainProject"));
             return new PaymentGatewayDbContext(builder.Options);
         }
     }

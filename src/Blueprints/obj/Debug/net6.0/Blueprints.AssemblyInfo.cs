@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blueprints")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0a76867365741571db5b78b28f28442ed55d3d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bf167bbea871d04b273411076cc1df95e25de62")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blueprints")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blueprints")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

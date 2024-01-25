@@ -48,7 +48,8 @@ namespace MainProject
                 services.AddDbContext<PaymentGatewayDbContext>(options =>
                 {
                     options.UseSqlServer
-                    (@"server=DESKTOP-HFUQ8MH\ALISQL2019; Initial Catalog=PaymentGateaway; Integrated Security=true; Encrypt=True; TrustServerCertificate=True");
+                    (@"server=DESKTOP-HFUQ8MH\ALISQL2019; Initial Catalog=PaymentGateaway; Integrated Security=true; Encrypt=True; TrustServerCertificate=True",
+                    b => b.MigrationsAssembly("MainProject"));
                 });
 
                 ////@"server=DESKTOP-HFUQ8MH\ALISQL2019; database=PaymentGateaway; Integrated Security=true"
